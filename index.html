@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RadioSTBX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="radioshack-icon.png">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="radioshack-icon.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Lorem ipsum.<br>To <span>Karaluchy</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nostrum, dolorum aut sint
+                    perspiciatis possimus voluptate mollitia. Deserunt quod laudantium tempore. Soluta rem nihil cumque
+                    earum magnam inventore nisi. Animi adipisci repellendus error incidunt pariatur!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="shack-pic-2.jpg" class="company" alt="electronic devices">
+
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="thumb-shack2.png" alt="thumbnail1"
+                    onclick="imgSlider('shack-pic-2.jpg');changeCircleColor('#3D7A73')"></li>
+            <li><img src="thumb-shack1.png" alt="thumbnail1"
+                    onclick="imgSlider('shack-pic-1.jpg');changeCircleColor('#016BD9')"></li>
+            <li><img src="thumb-shack3.png" alt="thumbnail1"
+                    onclick="imgSlider('shack-pic-3.jpg');changeCircleColor('#8FA9B8')"></li>
+        </ul>
+        <ul class="social-media">
+            <li><a href="#"><img src="facebook.png" alt="Facebook logo"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="Twitter logo"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="Instagram logo"></a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
